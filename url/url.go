@@ -8,4 +8,5 @@ import (
 func Web(page *fiber.App) {
 	page.Get("/", controller.Home)
 	page.Get("/kontak", controller.GetAll)
+	page.Post("/insert", controller.InsertData)
 }

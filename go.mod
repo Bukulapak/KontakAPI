@@ -6,7 +6,7 @@ require (
 	github.com/aiteung/atdb v0.0.13
 	github.com/aiteung/musik v0.0.5
 	github.com/gofiber/fiber/v2 v2.48.0
-	github.com/indrariksa/be_presensi v0.0.13
+	github.com/indrariksa/be_presensi v0.0.14
 	github.com/whatsauth/whatsauth v0.2.5
 )
 
