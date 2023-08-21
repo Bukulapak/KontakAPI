@@ -1,20 +1,17 @@
 package main
 
 import (
+	"github.com/Bukulapak/KontakAPI/config"
+	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber/v2/middleware/logger"
 	"log"
-
-	"github.com/indrariksa/ws-ulbi/config"
 
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 
 	"github.com/whatsauth/whatsauth"
 
-	"github.com/indrariksa/ws-ulbi/url"
-
-	"github.com/gofiber/fiber/v2"
-
-	_ "github.com/indrariksa/ws-ulbi/docs"
+	"github.com/Bukulapak/KontakAPI/url"
 )
 
 // @title TES SWAG
@@ -32,6 +29,7 @@ func main() {
 	go whatsauth.RunHub()
 	site := fiber.New(config.Iteung)
 	site.Use(cors.New(config.Cors))
+	site.Use(logger.New())
 	url.Web(site)
 	log.Fatal(site.Listen(musik.Dangdut()))
 }
