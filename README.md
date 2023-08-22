@@ -40,10 +40,10 @@ https://go-kontak-2997a9d9d62c.herokuapp.com
 
 ```json
 {
-  "nama_kontak": "Si Ujang",
-  "nomor_hp": "68123456789",
-  "alamat": "Sumedang",
-  "keterangan": "Teman"
+  "nama_kontak": "Si Asep",
+  "nomor_hp": "61235156431231",
+  "alamat": "Bandung",
+  "keterangan": "Keluarga"
 }
 
 ```
