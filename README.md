@@ -30,3 +30,27 @@ https://go-kontak-2997a9d9d62c.herokuapp.com
 }
 
 ```
+
+#### Edit Contact
+
+```http
+  PUT /update/{id}
+```
+
+
+```json
+{
+  "nama_kontak": "Si Ujang",
+  "nomor_hp": "68123456789",
+  "alamat": "Sumedang",
+  "keterangan": "Teman"
+}
+
+```
+
+
+#### Delete Contact
+
+```http
+  DELETE /delete/{id}
+```
