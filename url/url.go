@@ -9,4 +9,6 @@ func Web(page *fiber.App) {
 	page.Get("/", controller.Home)
 	page.Get("/kontak", controller.GetAll)
 	page.Post("/insert", controller.InsertData)
+	page.Put("/update/:id", controller.UpdateData)
+	page.Delete("/delete/:id", controller.DeleteKontak)
 }

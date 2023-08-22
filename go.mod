@@ -6,8 +6,9 @@ require (
 	github.com/aiteung/atdb v0.0.13
 	github.com/aiteung/musik v0.0.5
 	github.com/gofiber/fiber/v2 v2.48.0
-	github.com/indrariksa/be_presensi v0.0.14
+	github.com/indrariksa/be_presensi v0.0.17
 	github.com/whatsauth/whatsauth v0.2.5
+	go.mongodb.org/mongo-driver v1.12.1
 )
 
 require (
@@ -47,7 +48,6 @@ require (
 	go.mau.fi/libsignal v0.1.0 // indirect
 	go.mau.fi/util v0.0.0-20230805171708-199bf3eec776 // indirect
 	go.mau.fi/whatsmeow v0.0.0-20230817083005-1c185f033d88 // indirect
-	go.mongodb.org/mongo-driver v1.12.1 // indirect
 	golang.org/x/crypto v0.12.0 // indirect
 	golang.org/x/sync v0.3.0 // indirect
 	golang.org/x/sys v0.11.0 // indirect
