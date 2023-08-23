@@ -14,6 +14,12 @@ https://go-kontak-2997a9d9d62c.herokuapp.com
   GET /kontak
 ```
 
+#### Get by id Contact
+
+```http
+  GET /kontak/{id}
+```
+
 #### Add Contact
 
 ```http
